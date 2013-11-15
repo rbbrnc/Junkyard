@@ -1,0 +1,7 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+   <file>omega.png</file>
+   <file>accept.png</file>
+   <file>cancel.png</file>
+</qresource>
+</RCC>
