@@ -1,0 +1,13 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+	<file>audio-volume-high.png</file>
+	<file>audio-volume-low.png</file>
+	<file>audio-volume-medium.png</file>
+	<file>audio-volume-mute.png</file>
+   <file>cancel.png</file>
+</qresource>
+</RCC>
+
+
+
+
