@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pixmaps/bullet_black.png</file>
+        <file>pixmaps/bullet_green.png</file>
+        <file>pixmaps/bullet_red.png</file>
+        <file>pixmaps/bullet_yellow.png</file>
+        <file>pixmaps/paper_airplane.png</file>
+    </qresource>
+</RCC>
