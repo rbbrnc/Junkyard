@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Pixmaps/menu-32.png</file>
+        <file>Pixmaps/back-32.png</file>
+        <file>Pixmaps/search-32.png</file>
+    </qresource>
+</RCC>

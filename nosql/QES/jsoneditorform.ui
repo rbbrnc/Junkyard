@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>JsonEditorForm</class>
+ <widget class="QWidget" name="JsonEditorForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>736</width>
+    <height>527</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="filePathLabel">
+     <property name="text">
+      <string>__filePath__</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSplitter" name="splitter">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QTreeView" name="jsonTreeView"/>
+     <widget class="QTextEdit" name="jsonTextEdit"/>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Pos:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="positionLabel">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+  <action name="actionLoadJsonFile">
+   <property name="text">
+    <string>Load</string>
+   </property>
+   <property name="toolTip">
+    <string>Load JSON File</string>
+   </property>
+  </action>
+  <action name="actionSaveJsonFile">
+   <property name="text">
+    <string>Save</string>
+   </property>
+   <property name="toolTip">
+    <string>Save JSON File</string>
+   </property>
+  </action>
+  <action name="actionValidateJson">
+   <property name="text">
+    <string>Validate JSON</string>
+   </property>
+   <property name="toolTip">
+    <string>Validate JSON</string>
+   </property>
+  </action>
+  <action name="actionAddItem">
+   <property name="text">
+    <string>Add Item</string>
+   </property>
+  </action>
+  <action name="actionEditItem">
+   <property name="text">
+    <string>Edit Item</string>
+   </property>
+  </action>
+  <action name="actionDeleteItem">
+   <property name="text">
+    <string>Delete Item</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
